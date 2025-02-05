@@ -1,0 +1,62 @@
+.flex {
+  display: flex;
+}
+.border {
+  border: 2px solid black;
+}
+.justify-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.bg-grey {
+  background-color: #121212;
+}
+.bg-black {
+  background-color: black;
+  color: white;
+}
+.invert {
+  filter: invert(1);
+}
+.rounded {
+  border-radius: 8px;
+}
+.m-1 {
+  margin: 5px;
+}
+.p-1 {
+  padding: 15px;
+}
+.logo-width {
+  width: 20px;
+}
+
+/* Scroll bar Dark Code  */
+/* WebKit-based browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* Dark track background */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333; /* Dark thumb */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Slightly lighter on hover */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #333 #1e1e1e; /* Thumb and track */
+}
+
+/* Scroll bar Dark Code  */
